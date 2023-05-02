@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Lgin</title>
+</head>
+<body>
+    
+<section>
+    <header>
+        <h2>Logo</h2>
+        <nav class="navigation">
+            <a href="#">Inicio</a>            
+            <a href="#">Ajuda</a>
+            <a href="#">Suporte</a>
+            <button class="btnlogin-popup">Login</button>
+        </nav>
+    </header>
+    <div class="wrapper">
+        <span class="icon-close">
+            <ion-icon name="close"></ion-icon>
+        </span>
+
+        <div class="form-box login">
+            <h2>Login</h2>
+            <form action="#">
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="mail"></ion-icon></span>
+                    <input type="email" required>
+                    <label>Email</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
+                    <input type="password" required>
+                    <label>Senha</label>
+                </div>
+                <div class="lembrar-senha">
+                    <label><input type="checkbox">Lembrar senha</label>
+                    <a href="#" class="senha-link">Equeci minha senha</a>
+                </div>
+                <button type="submit" class="btn">Entrar</button>
+                <div class="login-register">
+                    <p>Não tem uma conta?
+                        <a href="#" class="register-link">Crir conta</a>
+                    </p>
+                </div>
+            </form>
+        </div>
+
+        <div class="form-box register">
+            <h2>Criar conta</h2>
+            <form action="#">
+                <div class="input-box">
+                    <span class="icon">
+                        <ion-icon name="person"></ion-icon>
+                    </span>
+                    <input type="text" required>
+                    <label>Usuário</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon">
+                        <ion-icon name="mail"></ion-icon>
+                    </span>
+                    <input type="email" required>
+                    <label>Email</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
+                    <input type="password" required>
+                    <label>Senha</label>
+                </div>
+                <div class="lembrar-senha">
+                    <label><input type="checkbox">Eu aceito com os termos e condições</label>
+                </div>
+                <button type="submit" class="btn">Criar</button>
+                <div class="login-register">
+                    <p>Já tem uma conta?
+                        <a href="#" class="login-link">Entrar</a>
+                    </p>
+                </div>
+            </form>
+        </div>
+        
+        <div class="form-box senha">
+            <h2>Redefinir senha</h2>
+            <form action="#">
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="mail"></ion-icon></span>
+                    <input type="email" required>
+                    <label>Email</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon">
+                        <ion-icon name="person"></ion-icon>
+                    </span>
+                    <input type="text" required>
+                    <label>Usuário</label>
+                </div>
+                
+                <button type="submit" class="btn">Confirmar email</button>
+                <div class="back-link">
+                    <a href="#" class="voltar-link">Voltar</a>       
+                </div>
+            </form>
+        </div>
+    </div>
+</section>
+
+    <script src="script.js"></script>
+    <script  type = "module"  src = "https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js" > </script> 
+<script  nomodule  src = "https://unpkg .com/ionicons@7.1.0/dist/ionicons/ionicons.js" > </script>
+</body>
+</html>
